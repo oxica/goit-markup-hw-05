@@ -290,16 +290,41 @@ ul {
   padding-bottom: 94px;
 }
 
+.section-title {
+  margin-bottom: 50px;
+}
+
 .work-list {
   display: flex;
+
+}
+
+.work-item {
+  position: relative;
+
 }
 
 .work-item:not(:last-child) {
   margin-right: 30px;
 }
 
-.section-title {
-  margin-bottom: 50px;
+.work-text {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+
+  padding: 27px 0px;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: var(--white-text-color);
+  background-color: rgba(47, 48, 58, 0.8);;
 }
 /* ----------------КОМАНДА----------------- */
 
